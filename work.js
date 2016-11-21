@@ -125,7 +125,7 @@ function preloadFullPhotos(arrayOfImages) {
 	preloadArray = arrayOfImages.slice();
 
 	for(i = 0; i < preloadArray.length; i++){
-		preloadArray[i] = 'photos/' + preloadArray[i];
+		preloadArray[i] = 'photos/gal_' + preloadArray[i];
 	}
     $(preloadArray).each(function () {
         $('<img />').attr('src',this).appendTo('body').css('display','none');
