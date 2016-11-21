@@ -37,7 +37,7 @@
 
   	// Load the photo thumbnails
   	for(i = 0; i < photoPages[photoPage].length; i++){
-  		var photoCode = '<a class="fancybox" rel="group" href="photos/' + photoPages[photoPage][i] + '"><img src="photos/thumbnail_' 
+  		var photoCode = '<a class="fancybox" rel="group" href="photos/gal_' + photoPages[photoPage][i] + '"><img src="photos/thumbnail_' 
   							+ photoPages[photoPage][i] + '" alt="" ></a>'
   		if(i < 3){
   			$(".col-1").append(photoCode);
